@@ -142,8 +142,8 @@ conda --version
 
 ![anvio installation](installation/14.png)
 
->voila! we solved a problem. this is where i go for a cup of tea.  
->this troubleshooting took me more than an hour. the time you spend now will save you later. spend as much time as it takes—each time it gets easier, and problems get solved by applying previous solutions.
+voila! we solved a problem. this is where i go for a cup of tea.  
+this troubleshooting took me more than an hour. the time you spend now will save you later. spend as much time as it takes—each time it gets easier, and problems get solved by applying previous solutions.
 
 > i assume this is the very first time you are installing anvio, so i will skip the recommendation on the anvio install page that says you should make sure you are not in any environment or don’t have an environment named `anvio-dev`. if this is your second, third, fourth, or fifth time :D, then please take care of those steps before proceeding.
 
@@ -182,11 +182,39 @@ conda activate anvio-dev
 ```
 ![anvio installation](installation/19.png)
 
+okay, now we have a clean and fresh environment waiting to be occupied.  
 
+# 4. install many software all at once
+in the anvio page, we see a paragraph containing six lines of code separated by `\` from each other, which can be executed all at once.  
 
+it will probably work if you just copy and paste it. **but**, as a beginner, i prefer to execute each line individually, troubleshoot if necessary, and then move on to the next line. so let’s do that here.  
+![anvio installation](installation/20.png)
 
+copy each code, wait for it to run, then move on to the next:  
+```bash
+conda install -y -c conda-forge -c bioconda python=3.10
+```
+```bash
+conda install -y -c conda-forge -c bioconda sqlite prodigal idba mcl muscle=3.8.1551 famsa hmmer diamond
+```
+```bash
+conda install -y -c conda-forge -c bioconda blast megahit spades bowtie2 bwa graphviz "samtools>=1.9"
+```
+```bash
+conda install -y -c conda-forge -c bioconda trimal iqtree trnascan-se fasttree vmatch r-base r-tidyverse
+```
+```bash
+conda install -y -c conda-forge -c bioconda r-optparse r-stringi r-magrittr bioconductor-qvalue meme ghostscript
+```
+```bash
+conda install -y -c conda-forge -c bioconda nodejs
+```
 
+all of them ran smoothly for me. you should wait until you see something like this after running each line.  
 
+![anvio installation](installation/21.png)
+
+also, if you forgot which line you entered, press the up arrow on your keyboard, and the latest command will appear. 
 
 
 
