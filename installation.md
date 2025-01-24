@@ -258,9 +258,13 @@ we run the code again to see if the problem is solved:
 ```bash
 pip install -r requirements.txt
 ```
-no errors this time, and we now have a nice and complete version of anvio on our system.  
+no errors this time, and we now have a nice and complete version of anvio on our system. 
+
 ![anvio installation](installation/26.png)
 
+this code, which looks like absolute gibber gabber, will help conda connect to anvio and get the latest update. again, you can copy and paste it all at once, but i prefer to run them one by one. lines that start with `#` are called comments, and you don’t need to enter them in the terminal—they are for humans to read and understand what the code is doing.  
+
+![anvio installation](installation/27.png)
 
 
 
