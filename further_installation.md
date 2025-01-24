@@ -37,6 +37,7 @@ this test will show us how a real `anvi-interactive` works. by opening your loca
 
 localhost is a url generated on your system to view visualizations. it can have either of these addresses:  
 >http://localhost:8080/
+
 >http://127.0.0.1:8080/
 
 anvio visualizations work best with chrome. so, if you notice any weirdness, try opening the url in chrome.  
@@ -47,6 +48,93 @@ also, kudos to whoever is naming the versions. 🎉
 
 
 # finalize and prepare for everything
+
+we know that not all parts of a genome are translated into proteins. there are specialized tools that help identify the functional regions of a genome and tag them with their taxonomical or functional roles. anvio allows us to integrate these tools and databases.  
+
+let’s go:  
+
+```bash
+anvi-setup-scg-taxonomy
+```
+it took me with the university internet nework, it might vary for you.  
+(i’ll mention the time it took me for a relative comparison.)
+
+```bash
+anvi-setup-ncbi-cogs
+```
+6 minutes
+
+```bash
+anvi-setup-kegg-data
+```
+14 minutes
+
+![anvio interactive](installation/39.png)
+
+now do another test:
+```bash
+anvi-self-test --suite pangenomics
+```
+
+![anvio interactive](installation/40.png)
+
+
+i seem to be safe. how is it going for you over there? :)
+
+# binning algorithm
+you will learn what binning means during the course, but for now, we’ll just set up the necessary tools for it.  
+move to the `github` directory: 
+
+```bash
+cd ~/github/
+```
+
+clone CONCOT to anvio conda enviornment:
+```bash
+git clone https://github.com/merenlab/CONCOCT.git
+```
+```bash
+cd CONCOCT
+````
+```bash
+python setup.py build
+```
+
+![anvio interactive](installation/41.png)
+
+i need `cython`. i don’t know what it is either, but let’s go ahead and figure out how to install it anyway.  
+```bash
+conda install -c conda-forge cython
+```
+```bash
+cython --version
+```
+
+re-run:
+```bash
+python setup.py build
+```
+```bash
+python setup.py install
+```
+
+finished! now we run this command to see a page like this:
+
+```bash
+anvi-cluster-contigs -h
+```
+
+![anvio interactive](installation/42.png)
+
+we can go for a cup of tea now :D  
+
+
+
+
+
+
+
+
 
 
 
