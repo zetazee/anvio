@@ -4,14 +4,18 @@ so, if we have a genome and want to see if it, as a whole or in parts, exists in
 
 please visit [this video](https://www.youtube.com/watch?v=MqD4aN1p1qA) to fully grasp the idea.
 
-
+before starting the turorial, here is a glossary that you might find useful:
 <details>
-  <summary>sequencing.</summary>
-  
+  <summary>sequencing</summary>
   Determining the precise order of nucleotides in a DNA or RNA.
   - Sanger sequencing (first generation)
   - Next generation sequencing (NGS)
   - Third gen (Oxford Nanopore, PacBio SMRT)
+</details>
+<details>
+  <summary>reference sequence</summary>
+  - a sequence that serves as the base for comparing and aligning other sequences.
+  - anything that is longer than your shorts may serve as a reference.
 </details>
 
 
