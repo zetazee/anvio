@@ -1,3 +1,3 @@
-# topics:
+# tutorials:
 
-- [What is Anvio](example.md)
+- [anvio installation](example.md)
