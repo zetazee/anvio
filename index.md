@@ -1,3 +1,3 @@
 # tutorials:
 
-- [anvio installation](example.md)
+- [anvio installation](installation.md)
