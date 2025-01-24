@@ -31,6 +31,45 @@ so copy paste this in your wsl terminal inside VS Code:
 ```bash
 conda --version
 ```
+![anvio installation](installation/2.png)
+
+if it says `command not found`, you don’t have it, and you need to install it.
+
+# 2. install miniconda:
+
+from [this page](https://docs.anaconda.com/miniconda/install/), you can choose your system and install it. just remember that your system’s name is now linux (not windows anymore), and we need to follow linux-specific installations. we are going to be working only with wsl during the course.
+
+if it were a windows software, we would just click on a link, and it would download automatically. but the documentation for linux says we need to download it by copying and pasting this line into the terminal:
+```bash
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+![anvio installation](installation/3.png)
+
+i didn’t get any errors, but you might see that you don’t have this other software named `curl`, and you need to install that before installing miniconda. anytime you don’t have something, just go to its original website, find the command provided for linux, and paste it.
+
+now we have miniconda. let's verify it:
+```bash
+ls
+```
+![anvio installation](installation/4.png)
+
+you should have a file named `miniconda`, like in the screenshot. (other files in my computer are irrelevant to this process.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
