@@ -11,7 +11,10 @@ my installation is for windows 10, 64-bit, core i5 system with no gpu, and i hav
 - in my opinion, core i5 is the minimum, and if your system has less cpu power, you can ask [ASTA](https://asta-oldenburg.de/angebote/computerwerkstatt/) to borrow a laptop for the duration of the course.  
 - if you have less than 50 gb free space, you can easily insert a new ssd, it’s not hard to do on your own. buy a new ssd and search online for how to install it. once done, install windows Enterprise on it because it’s much faster than the Home version (just between us, you can also find the enterprise version for free online, torrent, cough cough). i should mention that 30 gb would also do, but being so close to the system's limit will slow your computer down and make your life harder.
 make sure everything is set for the best performance. this way, you can be sure that if something goes wrong, it’s your fault and not the system’s, making it much easier to troubleshoot. when your system starts acting up, it can be frustrating to pinpoint the issue.
-by the way, if you choose to install windows enterprise, connect it to your windows account for recovery if needed. sometimes, changes in your ip or network can lock you out, and without a backup, you could lose all your files.  
+by the way, if you choose to install windows enterprise, connect it to your windows account for recovery if needed. sometimes, changes in your ip or network can lock you out, and without a backup, you could lose all your files.
+
+# agreement
+you will encounter many of these oddly named software tools (like `conda`, `miniconda`, `curl`, etc.) that we don’t know much about or what they exactly do. however, they are interdependent, necessary for specific tasks, and we need them. they are not our focus in this course, so we won’t spend much time on them. for now, me and you agree to be satisfied knowing they are helping us get to anvio. of course, you can always search to learn more about them later.
 
 # WSL and VS Code
 there is a windows-like operating system named Linux that gives you more freedom in customization and using different tools. many applications, especially in bioinformatics, are written in a way that requires linux. for this course, you can either [set up a dual system](https://www.youtube.com/watch?v=GXxTxBPKecQ) by installing linux alongside your windows (takes a maximum of one hour) or install a small version of linux inside your windows (takes about 5 minutes). i recommend the latter, not only because it saves time but also for better compatibility.  
@@ -25,9 +28,7 @@ windows is designed to work seamlessly if you stick to tools specifically made f
 we have two options for installing anvio: stable version and development version. we will choose to [install the development version](https://anvio.org/install/windows/dev/), not only because we are adults now :)) but also because it is actively being developed and fixed. if something during the course needs to be addressed, you will automatically have the updated version without needing to do anything actively. let's start.
 
 # 1. check to see if you have this software named miniconda.
-what is miniconda? we don't know, yet. most of the time, you don’t need to know what these software are or what they exactly do, here. FOR NOW let's agree that we just need to have them to install anvio. of course, you can always search to learn more about them. you will encounter many of these oddly named software tools that are interdependent and necessary for specific tasks, but they are not our focus in this course. we will be satisfied knowing that they are helping us get to anvio.
-
-so copy paste this in your wsl terminal inside VS Code:
+please copy paste this in your wsl terminal inside VS Code:
 ```bash
 conda --version
 ```
@@ -292,6 +293,14 @@ which anvi-self-test
 ```
 
 ![anvio installation](installation/30.png)
+
+display anvio's version:
+```bash
+anvi-self-test -v
+```
+
+![anvio installation](installation/31.png)
+
 
 anvio installation is complete :)  
 
