@@ -30,7 +30,7 @@ what is miniconda? we don't know, yet. most of the time, you don’t need to kno
 so copy paste this in your wsl terminal inside VS Code:
 ```bash
 conda --version
-
+```
 
 
 
