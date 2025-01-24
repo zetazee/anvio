@@ -39,7 +39,7 @@ if it says `command not found`, you don’t have it, and you need to install it.
 
 from [this page](https://docs.anaconda.com/miniconda/install/), you can choose your system and install it. just remember that your system’s name is now linux (not windows anymore), and we need to follow linux-specific installations. we are going to be working only with wsl during the course.
 
-if it were a windows software, we would just click on a link, and it would download automatically. but the documentation for linux says we need to download it by copying and pasting this line into the terminal:
+the documentation for linux says we need to download it by copying and pasting this line into the terminal:
 ```bash
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -48,16 +48,39 @@ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 i didn’t get any errors, but you might see that you don’t have this other software named `curl`, and you need to install that before installing miniconda. anytime you don’t have something, just go to its original website, find the command provided for linux, and paste it.
 
-now we have miniconda. let's verify it:
+let's verify the download:
 ```bash
 ls
 ```
 ![anvio installation](installation/4.png)
 
-you should have a file named `miniconda`, like in the screenshot. (other files in my computer are irrelevant to this process.)
+you should have a file named `Miniconda3-latest-Linux-x86_64.sh`, like the screenshot. (other files in my computer are irrelevant to this process.)
 
+now we have downloaded the file, but we still don’t have the miniconda software on our system. remember that if this were a windows software, we would have clicked on a download link to get a file with a `.exe` extension, then double-clicked on it to run and install the software. this process is similar. we downloaded the executable file, and now we need to ask `bash` to run it for us because we can’t double-click on files in linux:  
 
+```bash
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+![anvio installation](installation/5.png)
 
+then it will be like installing something in windows, where you click "next" and "yes."  
+at the end of the installation, you should see that it has been installed like this:  
+
+![anvio installation](installation/6.png)
+
+now you need to restart your terminal. close vs code and open it again.
+
+verify:
+```bash
+conda --version
+```
+![anvio installation](installation/7.png)
+
+still not found. so i need to check if the file is on my linux or not: 
+```bash
+ls
+```
+![anvio installation](installation/8.png)
 
 
 
