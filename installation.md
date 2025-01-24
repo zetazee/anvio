@@ -142,15 +142,45 @@ conda --version
 
 ![anvio installation](installation/14.png)
 
-voila! we solved a problem. this is where i go for a cup of tea.  
-this troubleshooting took me more than an hour. the time you spend now will save you later. spend as much time as it takes—each time it gets easier, and problems get solved by applying previous solutions.
+>voila! we solved a problem. this is where i go for a cup of tea.  
+>this troubleshooting took me more than an hour. the time you spend now will save you later. spend as much time as it takes—each time it gets easier, and problems get solved by applying previous solutions.
 
 > i assume this is the very first time you are installing anvio, so i will skip the recommendation on the anvio install page that says you should make sure you are not in any environment or don’t have an environment named `anvio-dev`. if this is your second, third, fourth, or fifth time :D, then please take care of those steps before proceeding.
 
+# 3. create a place only for Anvio
+anvio works with many different software and programs, and these programs have different versions. we need to make sure they are compatible and can interact with each other properly. to achieve this, we create something like a folder (called an environment) specifically for anvio, where we specify what version of each software to install. this way, if something doesn’t work, we know which version caused the issue and only change that specific version instead of everything.  
+for example, the latest version of python at the moment of writing this is 3.12, but we want to work with version 3.10. we can specify this in our anvio environment.  
 
+so, please copy paste this in your terminal:
+```bash
+conda create -y --name anvio-dev python=3.10
+```
+![anvio installation](installation/15.png)
 
+we created it, and now we need to **enter** this environment to build things:  
 
+```bash
+conda activate anvio-dev
+```
+![anvio installation](installation/16.png)
 
+it says you have created it but haven’t initialized it yet, so we do that:  
+```bash
+conda init
+```
+![anvio installation](installation/17.png)
+
+it also tells me to close and re-open my terminal. (remember, we need to follow every instruction we see to do things right.)  
+
+![anvio installation](installation/18.png)
+
+when i re-open, i realize it says `(base)`, which wasn’t there before. this suggests that we now have more than one environment, and my terminal is indicating that i am not in the default environment or my anvio environment.  
+
+how do i go inside my anvio environment? i ask `conda` to activate that environment for me:  
+```bash
+conda activate anvio-dev
+```
+![anvio installation](installation/19.png)
 
 
 
