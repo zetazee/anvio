@@ -21,6 +21,15 @@ windows is designed to work seamlessly if you stick to tools specifically made f
 ![anvio installation](installation/1.png)
 
 
+# installing Anvio
+we have two options for installing anvio: stable version and development version. we will choose to [install the development version](https://anvio.org/install/windows/dev/), not only because we are adults now :)) but also because it is actively being developed and fixed. if something during the course needs to be addressed, you will automatically have the updated version without needing to do anything actively. let's start.
+
+# 1. check to see if you have this software named miniconda.
+what is miniconda? we don't know, yet. most of the time, you don’t need to know what these software are or what they exactly do, here. FOR NOW let's agree that we just need to have them to install anvio. of course, you can always search to learn more about them. you will encounter many of these oddly named software tools that are interdependent and necessary for specific tasks, but they are not our focus in this course. we will be satisfied knowing that they are helping us get to anvio.
+
+so copy paste this in your wsl terminal inside VS Code:
+```bash
+conda --version
 
 
 
