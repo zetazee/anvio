@@ -29,13 +29,6 @@ before doing the turorial, here is a glossary that you might find useful:
 </details>
 
 <details>
-  <summary>short reads</summary>
-  
-- dna sequences generated during sequencing, ranging from 50 to 300 base pairs.
-- they are produced by technologies like illumina.
-</details>
-
-<details>
   <summary>short reads generation</summary>
   
   1. **fragmentation**: using physical, enzymatic, chemical methods. 
