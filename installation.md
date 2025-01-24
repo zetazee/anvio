@@ -262,9 +262,41 @@ no errors this time, and we now have a nice and complete version of anvio on our
 
 ![anvio installation](installation/26.png)
 
-this code, which looks like absolute gibber gabber, will help conda connect to anvio and get the latest update. again, you can copy and paste it all at once, but i prefer to run them one by one. lines that start with `#` are called comments, and you don’t need to enter them in the terminal—they are for humans to read and understand what the code is doing.  
+this code, which looks like absolute gibber gabber, will help conda connect to anvio and get the latest update. lines that start with `#` are called comments, and you don’t need to enter them in the terminal, they are for humans to read and understand what the code is doing.  
 
 ![anvio installation](installation/27.png)
+
+```bash
+cat <<EOF >${CONDA_PREFIX}/etc/conda/activate.d/anvio.sh
+> export PYTHONPATH=\$PYTHONPATH:~/github/anvio/
+> export PATH=\$PATH:~/github/anvio/bin:~/github/anvio/sandbox
+> echo -e "\033[1;34mUpdating from anvi'o GitHub \033[0;31m(press CTRL+C to cancel)\033[0m ..."
+> cd ~/github/anvio && git pull && cd -
+> EOF
+```
+
+it won’t produce results. it will just run silently. 
+
+![anvio installation](installation/28.png)
+
+we are in anvio environment, but we ask conda to activate it once again to update it and make the link complete:
+
+```bash
+conda activate anvio-dev
+```
+![anvio installation](installation/29.png)
+
+then ask anvio to test itself:
+```bash
+which anvi-self-test
+```
+
+![anvio installation](installation/30.png)
+
+anvio installation is complete :)  
+
+**please remember that every time you close vs code, you exit the anvio environment (and enter the base environment). so, we always need to ask conda to activate the anvio environment for us by saying `conda activate anvio-dev`, then continue with building things.  
+**
 
 
 
