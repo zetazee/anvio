@@ -129,9 +129,23 @@ export PATH="/home/zeta/miniconda3/bin:$PATH"
 
 ![anvio installation](installation/13.png)
 
+do you see `^O` at the bottom of the page? `^` means ctrl here. press `ctrl` and `o`, then it will ask if you want to save it with the same name—we want that, so press `enter`. after that, press `ctrl` and `x` to exit (it says at the bottom of the page that it is for exit).
 
+then run:
+```bash
+source ~/.bashrc
+```
+and check to see if `conda` is now accessible by your computer:  
+```bash
+conda --version
+```
 
+![anvio installation](installation/14.png)
 
+voila! we solved a problem. this is where i go for a cup of tea.  
+this troubleshooting took me more than an hour. the time you spend now will save you later. spend as much time as it takes—each time it gets easier, and problems get solved by applying previous solutions.
+
+> i assume this is the very first time you are installing anvio, so i will skip the recommendation on the anvio install page that says you should make sure you are not in any environment or don’t have an environment named `anvio-dev`. if this is your second, third, fourth, or fifth time :D, then please take care of those steps before proceeding.
 
 
 
