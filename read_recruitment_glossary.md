@@ -73,7 +73,7 @@ before doing the turorial, here is a glossary that you might find useful:
 
   - investigate one or more ref sequences in the context of one of more samples to which we have access through short reads.
   - your ref and short reads can be anything.
-- </details>
+ </details>
 
 <details>
   <summary>what can serve as a reference?</summary>
