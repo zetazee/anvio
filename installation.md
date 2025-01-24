@@ -216,6 +216,50 @@ all of them ran smoothly for me. you should wait until you see something like th
 
 also, if you forgot which line you entered, press the up arrow on your keyboard, and the latest command will appear. 
 
+# 5. install anvio itself
+now we have everything that anvio needs to be installed.  
+let’s make a directory (a folder) inside our anvio environment to download the files from a website called github, where the anvio code has been shared, into this folder.  
+```bash
+mkdir -p ~/github && cd ~/github/
+```
+![anvio installation](installation/22.png)
+
+this command has created a folder named `github` and opened it. the blue text indicates that we are inside this directory.  
+
+now we can copy (clone) anvio’s code to our directory by running this:  
+```bash
+git clone --recursive https://github.com/merenlab/anvio.git
+```
+![anvio installation](installation/23.png)
+
+and run this code to install somethings that our python needs to be working properly:
+```bash
+pip install -r requirements.txt
+```
+everything ran smoothly, except for some errors I encountered:  
+
+![anvio installation](installation/24.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
