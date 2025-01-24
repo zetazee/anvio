@@ -82,8 +82,21 @@ ls
 ```
 ![anvio installation](installation/8.png)
 
+yes, there is a file for `miniconda3`. we can also see the inside of it (like browsing to your c folder) by saying:  
+```bash
+cd miniconda3/
+```
+and then list:
+```bash
+and then:
+```
+![anvio installation](installation/9.png)
 
+okay, everything needed for it is installed. why doesn’t it recognize it?  
 
+the thing is, i need this thing called `conda` to help me with the next step. so, i need to figure out why it’s not responding. it should be inside the `bin` file—and it is—but my system can’t access it: 
+
+![anvio installation](installation/10.png)
 
 
 
