@@ -48,7 +48,7 @@ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 i didn’t get any errors, but you might see that you don’t have this other software named `curl`, and you need to install that before installing miniconda. anytime you don’t have something, just go to its original website, find the command provided for linux, and paste it.
 
-let's verify the download:
+let's verify the download by listing:
 ```bash
 ls
 ```
@@ -82,21 +82,61 @@ ls
 ```
 ![anvio installation](installation/8.png)
 
-yes, there is a file for `miniconda3`. we can also see the inside of it (like browsing to your c folder) by saying:  
+yes, there is a file for `miniconda3`. we can also see the inside of it (like browsing to your c folder) by saying "change directory":  
 ```bash
 cd miniconda3/
 ```
 and then list:
 ```bash
-and then:
+ls
 ```
 ![anvio installation](installation/9.png)
 
 okay, everything needed for it is installed. why doesn’t it recognize it?  
-
-the thing is, i need this thing called `conda` to help me with the next step. so, i need to figure out why it’s not responding. it should be inside the `bin` file—and it is—but my system can’t access it: 
+it should be inside the `bin` file, and it is, but my system can’t access it: 
 
 ![anvio installation](installation/10.png)
+
+our system doesn’t have an eye to see things, so we need to give it access to files and specify in detail where to find them. this specification of where things are is called `PATH` in linux. it’s analogous to moving your mouse to drive D and selecting something, but here you don’t use a mouse—you type commands. you say, "okay, first open the file explorer, then go to folder D, then execute (like double-clicking) file X."
+you will likely encounter many errors during this course caused by `PATH`. so **always check your path first.** if you rule it out, then you can doubt other things.  
+
+- check your path (print working directory):
+```bash
+pwd
+```
+this will tell you where you are (which folder you are in now):  
+![anvio installation](installation/11.png)
+
+my system’s name is zeta, so it shows `/home/zeta`. yours will show the name you have chosen. this is called `home` in linux. it’s like opening the file explorer and being able to see all the folders (c, d, etc).  
+
+now check the path:
+```bash
+echo $PATH
+```
+![anvio installation](installation/12.png)
+
+things will only execute if they are accessible from the path, and i can’t see `/home/zeta/miniconda3/bin`, so we need to add it to the path, according to chatgpt. (you might encounter this error, or you might not. i’m trying to show how you can solve problems you face at any step, they’re pretty much the same. you check the path or the version and always consult chatgpt. you’ll be able to solve the problem.)
+
+Let’s add miniconda bin to the path:
+```bash
+nano ~/.bashrc
+```
+
+when you run this, a new page will open with many things written in it. use your down arrow to scroll to the end of the text and paste this line AFTER adjusting your own username instead of `zeta`:  
+```bash
+export PATH="/home/zeta/miniconda3/bin:$PATH"
+```
+
+![anvio installation](installation/13.png)
+
+
+
+
+
+
+
+
+
 
 
 
