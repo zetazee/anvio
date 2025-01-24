@@ -232,15 +232,34 @@ git clone --recursive https://github.com/merenlab/anvio.git
 ```
 ![anvio installation](installation/23.png)
 
+next we move inside the anvio directory:
+![anvio installation](installation/24.png)
+
 and run this code to install somethings that our python needs to be working properly:
 ```bash
 pip install -r requirements.txt
 ```
 everything ran smoothly, except for some errors I encountered:  
 
-![anvio installation](installation/24.png)
+![anvio installation](installation/25.png)
 
-
+let’s update our wsl to see if it fixes it:  
+(remember that when you type your password in wsl, nothing will appear, but it is being typed. don’t feel confused.)  
+```bash
+sudo apt update
+```
+```bash
+sudo apt full-upgrade
+```
+```bash
+sudo apt install gcc
+```
+we run the code again to see if the problem is solved:  
+```bash
+pip install -r requirements.txt
+```
+no errors this time, and we now have a nice and complete version of anvio on our system.  
+![anvio installation](installation/26.png)
 
 
 
