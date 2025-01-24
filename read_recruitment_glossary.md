@@ -114,10 +114,7 @@ before doing the turorial, here is a glossary that you might find useful:
   <summary>what is the difference: amplicons - reads?</summary>
   
   ![Amplicon Read](read_recruitment/amplicon-read.png)
-  
 </details>
-
-
  
 
 <details>
