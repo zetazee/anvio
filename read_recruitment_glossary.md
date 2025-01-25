@@ -20,6 +20,7 @@ before doing the turorial, here is a glossary that you might find useful:
   - anything that is longer than your shorts may serve as a reference.
 </details>
 
+<details>
   <summary>metagenomes</summary>
   
   - metagenomes are complete or partial genomes that have been gathered from an enviroment (for example soil or water)
