@@ -74,6 +74,11 @@ before doing the turorial, here is a glossary that you might find useful:
 </details>
 
 
+<details>
+  <summary>single copy core genes</summary>
+  
+  - genes that are typically found as a single copy in the genomes of organisms (bacteria, archaea, or eukaryotes).
+</details>
 
 
 <details>
