@@ -15,6 +15,7 @@ by the way, if you choose to install windows enterprise, connect it to your wind
 
 # agreement
 **one:** you will encounter many of these oddly named software tools (like `conda`, `miniconda`, `curl`, etc.) that we don’t know much about or what they exactly do. however, they are interdependent, necessary for specific tasks, and we need them. they are not our focus in this course, so we won’t spend much time on them. for now, me and you agree to be satisfied knowing they are helping us get to anvio. of course, you can always search to learn more about them later.
+
 **two:** you don't need to memorize any command or code. don't blame yourself if you can't remember how you go from folder A to B. first google, then chatgpt or come back to the tutorial to see that folder(directory) can be changed by saying `change directory` or in short `cd`. there is no shame in not remembering the commands. do it enough time, they'll stick.
 
 # WSL and VS Code
