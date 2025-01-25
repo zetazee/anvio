@@ -497,7 +497,7 @@ this was the result in chrome which was not complete. so i changed to firefox an
 
 ![read recruitment](read_recruitment/41.png)
 
-you can play with browser, localhost url and also the anvio setting to see why sometimes data is not completely shown.
+> you can play with browser, localhost url and also the anvio setting to see why sometimes data is not completely shown.
 
 # run the loop like a pro
 
