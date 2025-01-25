@@ -1,4 +1,4 @@
-# tutorials:
+# anvio for biologists:
 
 - [anvio installation](installation.md)
 - [anvio further installation](further_installation.md)
