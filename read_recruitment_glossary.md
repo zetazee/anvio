@@ -91,7 +91,7 @@ before doing the turorial, here is a glossary that you might find useful:
 
 
 <details>
-  <summary>what is the purpose of read recruitment purpose?</summary>
+  <summary>what is the purpose of read recruitment?</summary>
 
   - investigate one or more ref sequences in the context of one of more samples to which we have access through short reads.
   - your ref and short reads can be anything.
