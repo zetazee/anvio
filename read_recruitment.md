@@ -10,6 +10,12 @@ and we are basically doing two simple things here:
 
 some steps could take so long and we could lose track of what we were doing in the first place. but remember we are doing basic conversions and data visualization.
 
+**always remember that you need to run the commands where your files are.**  
+
+if you leave in the middle of the procedure and want to continue later, always `cd` to the directory where your files are before continuing. this may sound obvious, but it’s easy to forget. when you run a command, it needs direct access to the file—it can’t search your entire computer for the file with that specific name.
+
+let's start.
+
 # 1. download the data
 we need to download our reference and metagenomes. so let's do that.
 
@@ -131,11 +137,7 @@ this is still annotation but with another model called hmms. both are doing anno
 
 ![read recruitment](read_recruitment/10.png)
 
-do you notice that we are inside the directory where both our fasta file and the newly created db file are?  
-
-**always remember that you need to run the commands where your files are.**  
-
-if you leave in the middle of the procedure and want to continue later, always `cd` to the directory where your files are before continuing. this may sound obvious, but it’s easy to forget. when you run a command, it needs direct access to the file—it can’t search your entire computer for the file with that specific name.  
+do you notice that we are inside the directory where both our fasta file and the newly created db file are?   
 
 ```bash
 anvi-run-scg-taxonomy -c genome.db --num-threads 4
