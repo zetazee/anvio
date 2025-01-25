@@ -82,6 +82,15 @@ before doing the turorial, here is a glossary that you might find useful:
 
 
 <details>
+  <summary>MAG</summary>
+  
+  - remember how we sliced the dna as short reads to get it out of the cell? after getting it out, now we try to re-build it. MAG is what we have rebuilt.
+  - sometimes we can build the entire genome from the pieces, sometimes it is incomplete. both are called MAGs.
+  - it is an acronym for Metagenome-Assebled Genome
+</details>
+
+
+<details>
   <summary>what is the purpose of read recruitment purpose?</summary>
 
   - investigate one or more ref sequences in the context of one of more samples to which we have access through short reads.
