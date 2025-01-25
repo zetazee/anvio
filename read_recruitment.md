@@ -10,7 +10,7 @@ and we are basically doing two simple things here:
 
 some steps could take so long and we could lose track of what we were doing in the first place. but remember we are doing basic conversions and data visualization.
 
-**always remember that you need to run the commands where your files are.**  
+**always remember that you need to RUN THE COMMANDS WHERE YOUR FILES ARE.**  
 
 if you leave in the middle of the procedure and want to continue later, always `cd` to the directory where your files are before continuing. this may sound obvious, but it’s easy to forget. when you run a command, it needs direct access to the file, it can’t search your entire computer for the file with that specific name.
 
