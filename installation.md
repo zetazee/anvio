@@ -12,6 +12,7 @@ my installation is for windows 10, 64-bit, core i5 system with no gpu, and i hav
 - if you have less than 50 gb free space, you can easily insert a new ssd, it’s not hard to do on your own. buy a new ssd and search online for how to install it. once done, install windows Enterprise on it because it’s much faster than the Home version (just between us, you can also find the enterprise version for free online, torrent, cough cough). i should mention that 30 gb would also do, but being so close to the system's limit will slow your computer down and make your life harder.
 
 make sure everything is set for the best performance. this way, you can be sure that if something goes wrong, it’s your fault and not the system’s, making it much easier to troubleshoot. when your system starts acting up, it can be frustrating to pinpoint the issue.
+
 by the way, if you choose to install windows enterprise, connect it to your windows account for recovery if needed. sometimes, changes in your ip or network can lock you out, and without a backup, you could lose all your files.
 
 # agreement
