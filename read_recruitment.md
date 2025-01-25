@@ -12,7 +12,7 @@ some steps could take so long and we could lose track of what we were doing in t
 
 **always remember that you need to run the commands where your files are.**  
 
-if you leave in the middle of the procedure and want to continue later, always `cd` to the directory where your files are before continuing. this may sound obvious, but it’s easy to forget. when you run a command, it needs direct access to the file—it can’t search your entire computer for the file with that specific name.
+if you leave in the middle of the procedure and want to continue later, always `cd` to the directory where your files are before continuing. this may sound obvious, but it’s easy to forget. when you run a command, it needs direct access to the file, it can’t search your entire computer for the file with that specific name.
 
 let's start.
 
