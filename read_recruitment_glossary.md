@@ -20,6 +20,13 @@ before doing the turorial, here is a glossary that you might find useful:
   - anything that is longer than your shorts may serve as a reference.
 </details>
 
+  <summary>metagenomes</summary>
+  
+  - metagenomes are complete or partial genomes that have been gathered from an enviroment (for example soil or water)
+  - they then have been sequenced by a sequencing machine to be transferred into a computer.
+  - the so-called shift from in vitro to in silico.
+</details>
+
 <details>
   <summary>short reads</summary>
   
