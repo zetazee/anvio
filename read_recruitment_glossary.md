@@ -4,6 +4,7 @@ read here means short pieces of dna, and recruitment here means matching similar
 please visit [this video](https://www.youtube.com/watch?v=MqD4aN1p1qA) to fully grasp the idea.
 
 before doing the turorial, here is a glossary that you might find useful:
+
 <details>
   <summary>sequencing</summary>
   
@@ -12,8 +13,8 @@ before doing the turorial, here is a glossary that you might find useful:
   - Next generation sequencing (NGS)
   - Third gen (Oxford Nanopore, PacBio SMRT)
 </details>
+
 <details>
-  
   <summary>reference sequence</summary>
   
   - a sequence that serves as the base for comparing and aligning other sequences.
@@ -119,15 +120,12 @@ before doing the turorial, here is a glossary that you might find useful:
   - even synthetic or simulated reads, depending on the purpose of the study.
   </details>
 
-
-
 <details>
   <summary> are amplicons connected or separated? </summary>
-  they can be connected or separated, depending on the context of the analysis.
   
+  they can be connected or separated, depending on the context of the analysis.
   - connected: in metagenomics, they can overlap if they are multiple fragments.
   - separated: in pcr or sequencing and analysis.
-  
   in anvio they are typically treated as separated unless you assemble them into contigs.
  </details>
 
