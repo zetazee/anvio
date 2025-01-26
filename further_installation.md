@@ -90,7 +90,6 @@ cd ~/github/
 ```
 
 clone CONCOT to anvio conda enviornment:
-(run each line separately)
 ```bash
 git clone https://github.com/merenlab/CONCOCT.git
 ```
