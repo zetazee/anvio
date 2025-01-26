@@ -7,12 +7,14 @@ before doing the [read recruitment exercise](https://zetazee.github.io/anvio/rea
 
 <details>
   <summary>sequencing</summary>
-  
-  Determining the precise order of nucleotides in a DNA or RNA.
-  - Sanger sequencing (first generation)
-  - Next generation sequencing (NGS)
-  - Third gen (Oxford Nanopore, PacBio SMRT)
+  <p>Determining the precise order of nucleotides in a DNA or RNA.</p>
+  <ul>
+    <li>Sanger sequencing (first generation)</li>
+    <li>Next generation sequencing (NGS)</li>
+    <li>Third gen (Oxford Nanopore, PacBio SMRT)</li>
+  </ul>
 </details>
+
 
 <details>
   <summary>reference sequence</summary>
