@@ -1,8 +1,8 @@
-# what is anvio
+# what is anvio?
 
-it is a tool that turns solid, random-looking data into clear visuals that you can understand. you can think of it as a translator, not just any translator, but one that knows many languages and shows information in a way that is easy to see and work with. 
+anvio is a tool that transforms solid, random-looking data into clear, understandable visuals. you can think of it as a translator, not just any translator, but one that speaks many languages and presents information in a way that’s easy to see and work with.
 
-at first, it might seem quite complicated, but it’s actually just a tool, and like any tool, you can learn how to use it. you don’t need to learn all of its features right away. you’ll start with the basic, important ones, and if you need more advanced features in the future, you can learn them as you go.
+at first, it might seem quite complicated, but it’s really just a tool, like any other tool, you can learn how to use it. you don’t need to master all its features right away. start with the basic, important ones, and if you need more advanced features in the future, you can pick them up as you go.
 
 # before installation: optimize your system and set your mindset
 anvio does many things, which is why installing it requires more time than a regular program where we only need to hit next repeatedly. It’s okay, take your time and do it right. if the installation goes right, things will go much more smoothly for you later. so, get ready for an installation that is different from what you are usually used to and carefully peruse the instructions. perusing means reading in detail, not skimming. we are biologists with probably very little experience with computers. in this course, you can work on your computer skills and expand your skill set. rule number 1 for doing that is to read the instructions (documentation) word by word, then it’s just copy and paste.
