@@ -3,7 +3,7 @@ read here means short pieces of dna, and recruitment here means matching similar
 
 please visit [this video](https://www.youtube.com/watch?v=MqD4aN1p1qA) to fully grasp the idea.
 
-before doing the turorial, here is a glossary that you might find useful:
+before doing the [read recruitment exercise](https://zetazee.github.io/anvio/read_recruitment.html), here is a glossary that you might find useful:
 
 <details>
   <summary>sequencing</summary>
