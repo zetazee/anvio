@@ -1,6 +1,6 @@
 # what is anvio?
 
-anvio is a tool that transforms solid, random-looking data into clear, understandable visuals. you can think of it as a translator, not just any translator, but one that speaks many languages and presents information in a way that’s easy to see and work with.
+anvio is a tool that transforms raw, random-looking data into clear, understandable visuals. you can think of it as a translator, not just any translator, but one that speaks many languages and presents information in a way that’s easy to see and work with.
 
 at first, it might seem quite complicated, but it’s really just a tool, like any other tool, you can learn how to use it. you don’t need to master all its features right away. start with the basic, important ones, and if you need more advanced features in the future, you can pick them up as you go.
 
