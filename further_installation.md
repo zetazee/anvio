@@ -56,7 +56,7 @@ let’s go:
 ```bash
 anvi-setup-scg-taxonomy
 ```
-it took me with the university internet nework, it might vary for you.  
+it took me less than a minute with the university internet nework, it might vary for you.  
 (i’ll mention the time it took me for a relative comparison.)
 
 ```bash
