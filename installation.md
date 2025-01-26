@@ -238,6 +238,7 @@ git clone --recursive https://github.com/merenlab/anvio.git
 ![anvio installation](installation/23.png)
 
 next we move inside the anvio directory:
+
 ![anvio installation](installation/24.png)
 
 and run this code to install somethings that our python needs to be working properly:
