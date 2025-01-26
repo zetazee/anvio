@@ -309,7 +309,7 @@ anvi-self-test -v
 
 anvio installation is complete :)  
 
-**please remember that every time you close vs code, you exit the anvio environment (and enter the base environment). so, we always need to ask conda to activate the anvio environment for us by saying `conda activate anvio-dev`, then continue with building things.**
+**please remember that every time you close VS Code, you exit the anvio environment (and go back to the base environment). so, we always need to ask conda to activate the anvio environment for us by saying `conda activate anvio-dev`, then continue with building things.**
 
 
 
