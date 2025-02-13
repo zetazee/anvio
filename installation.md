@@ -274,11 +274,11 @@ this code, which looks like absolute gibber gabber, will help conda connect to a
 
 ```bash
 cat <<EOF >${CONDA_PREFIX}/etc/conda/activate.d/anvio.sh
-> export PYTHONPATH=\$PYTHONPATH:~/github/anvio/
-> export PATH=\$PATH:~/github/anvio/bin:~/github/anvio/sandbox
-> echo -e "\033[1;34mUpdating from anvi'o GitHub \033[0;31m(press CTRL+C to cancel)\033[0m ..."
-> cd ~/github/anvio && git pull && cd -
-> EOF
+export PYTHONPATH=\$PYTHONPATH:~/github/anvio/
+export PATH=\$PATH:~/github/anvio/bin:~/github/anvio/sandbox
+echo -e "\033[1;34mUpdating from anvi'o GitHub \033[0;31m(press CTRL+C to cancel)\033[0m ..."
+cd ~/github/anvio && git pull && cd -
+EOF
 ```
 
 it won’t produce results. it will just run silently. 
